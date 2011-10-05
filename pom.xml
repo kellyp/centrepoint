@@ -13,6 +13,16 @@
   <description>
     Centrepoint is a basic but useful application that sets up a dashboard of project information from Maven, Archiva and Continuum.
   </description>
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://localhost:8081/archiva/repository/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://localhost:8081/archiva/repository/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
